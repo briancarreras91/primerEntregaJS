@@ -50,7 +50,7 @@ class Turno {
     this.dia = dia;
   }
 }
-
+/*Se agregan profesionales y agendas predefinidas*/
 const profesionales = [
   new Profesional(1, "Dra. Gómez", "Pediatría"),
   new Profesional(2, "Dr. Pérez", "Cardiología"),
@@ -170,6 +170,7 @@ function menuUsuario() {
     case "4":
       despedida();
       break;
+
     default:
       alert("Opción inválida");
       menuUsuario();
